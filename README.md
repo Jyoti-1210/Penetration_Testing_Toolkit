@@ -32,10 +32,15 @@ Penetration_Testing_Toolkit/
 # ✅ How to Use
 
 1. Install dependencies
+
    pip install tqdm paramiko
+   
 2. Port Scan
+   
    python main.py scan 192.168.1.5 --start 20 --end 100
+   
 3. Brute Force
+   
    python main.py brute 192.168.1.5 root passwords.txt
  
 
